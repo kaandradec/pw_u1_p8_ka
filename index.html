@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js"></script>
 </head>
+
 <body>
-    
+    <div class="container">
+        <section class="juego-container">
+            <h1 style="text-align: center;">Prueba 1</h1>
+            <span id="idMensaje"></span>
+            <div class="cuadricula">
+                <div id="id1x1"><label>1x1</label></div>
+                <div id="id1x2"><label>1x2</label></div>
+                <div id="id1x3"><label>1x3</label></div>
+                <div id="id2x1"><label>2x1</label></div>
+                <div id="id2x2"><label>2x2</label></div>
+                <div id="id2x3"><label>2x3</label></div>
+                <div id="id3x1"><label>3x1</label></div>
+                <div id="id3x2"><label>3x2</label></div>
+                <div id="id3x3"><label>3x3</label></div>
+            </div>
+
+            <div class="formulario-container">
+                <form class="formulario" action="#">
+                    <p type="Fila"><input type="text" id="idFila"></p>
+                    <p type="Columna"><input type="text" id="idColumna"></p>
+                    <button onclick="cambiarLabelAButton()">VER</button>
+                </form>
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
